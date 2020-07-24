@@ -1,0 +1,3 @@
+
+ionic build --prod -- --base-href https://thatsnothowyouflirt.com
+npx angular-cli-ghpages --cname=thatsnothowyouflirt.com --dir=www
