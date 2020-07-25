@@ -1,0 +1,39 @@
+#
+#
+#  OUR NICE SCHEMA!!!!
+#
+#
+# If you notice, I commented out the auto-generated schema for reference purposes.
+#
+
+# type Task
+#     @model
+#     @auth(
+#         rules: [
+#             { allow: groups, groups: ["Managers"], queries: null, mutations: [create, update, delete] }
+#             { allow: groups, groups: ["Employees"], queries: [get, list], mutations: null }
+#         ]
+#     ) {
+#     id: ID!
+#     title: String!
+#     description: String
+#     status: String
+# }
+# type PrivateNote @model @auth(rules: [{ allow: owner }]) {
+#     id: ID!
+#     content: String!
+# }
+
+
+type Post
+    @model
+    @auth(
+        rules: [
+            { allow: public, operations: [read] }
+            { allow: owner, operations: [create, update, delete, read] }
+        ]
+    ) {
+    id: ID!
+    title: String!
+    content: String!
+}

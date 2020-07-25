@@ -10,6 +10,11 @@
             "StackName": "amplify-thatsnothowyouflirt-dev-181246",
             "StackId": "arn:aws:cloudformation:us-east-2:646169260105:stack/amplify-thatsnothowyouflirt-dev-181246/cf7e2410-cdfa-11ea-8fa4-023ebc410218",
             "AmplifyAppId": "d2g74zmc6ko0wd"
+        },
+        "categories": {
+            "auth": {
+                "thatsnothowyouflirtc78044e1": {}
+            }
         }
     }
 }
