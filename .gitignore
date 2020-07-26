@@ -349,6 +349,9 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
+# Custom
+www/
+
 #amplify
 amplify/\#current-cloud-backend
 amplify/.config/local-*
@@ -364,6 +367,3 @@ amplifyconfiguration.json
 amplify-build-config.json
 amplify-gradle-config.json
 amplifytools.xcconfig
-
-# Custom
-www/

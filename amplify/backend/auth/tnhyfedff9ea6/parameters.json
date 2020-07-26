@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "thatsnothowyouflirtc78044e1_identitypool_c78044e1",
+    "identityPoolName": "tnhyfedff9ea6_identitypool_edff9ea6",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "thatsnc78044e1",
-    "userPoolName": "thatsnothowyouflirtc78044e1_userpool_c78044e1",
+    "resourceNameTruncated": "tnhyfedff9ea6",
+    "userPoolName": "tnhyfedff9ea6_userpool_edff9ea6",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,10 +28,10 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "thatsnc78044e1_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "tnhyfeedff9ea6_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "c78044e1",
-    "resourceName": "thatsnothowyouflirtc78044e1",
+    "sharedId": "edff9ea6",
+    "resourceName": "tnhyfedff9ea6",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -49,6 +49,11 @@
     "usernameAttributes": [
         "email"
     ],
+    "triggers": "{}",
     "userPoolGroupList": [],
+    "parentStack": {
+        "Ref": "AWS::StackId"
+    },
+    "permissions": [],
     "dependsOn": []
 }

@@ -1,10 +1,10 @@
 {
-    "AppSyncApiName": "tnhyfAPI",
+    "AppSyncApiName": "tnhyf",
     "DynamoDBBillingMode": "PAY_PER_REQUEST",
     "DynamoDBEnableServerSideEncryption": false,
     "AuthCognitoUserPoolId": {
         "Fn::GetAtt": [
-            "auththatsnothowyouflirtc78044e1",
+            "authtnhyfedff9ea6",
             "Outputs.UserPoolId"
         ]
     }

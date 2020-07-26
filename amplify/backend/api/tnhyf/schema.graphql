@@ -1,11 +1,3 @@
-#
-#
-#  OUR NICE SCHEMA!!!!
-#
-#
-# If you notice, I commented out the auto-generated schema for reference purposes.
-#
-
 # type Task
 #     @model
 #     @auth(
@@ -29,10 +21,11 @@ type Post
     @model
     @auth(
         rules: [
-            { allow: public, operations: [read] }
-            { allow: owner, operations: [create, update, delete, read] }
+            { allow: owner }
+            { allow: groups, groups: ["users"], queries: [get, list] }
         ]
-    ) {
+    )
+{
     id: ID!
     title: String!
     content: String!

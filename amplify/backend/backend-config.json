@@ -1,13 +1,13 @@
 {
 	"auth": {
-		"thatsnothowyouflirtc78044e1": {
+		"tnhyfedff9ea6": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
 			"dependsOn": []
 		}
 	},
 	"api": {
-		"tnhyfAPI": {
+		"tnhyf": {
 			"service": "AppSync",
 			"providerPlugin": "awscloudformation",
 			"output": {
@@ -15,7 +15,7 @@
 					"defaultAuthentication": {
 						"authenticationType": "AMAZON_COGNITO_USER_POOLS",
 						"userPoolConfig": {
-							"userPoolId": "auththatsnothowyouflirtc78044e1"
+							"userPoolId": "authtnhyfedff9ea6"
 						}
 					},
 					"additionalAuthenticationProviders": []
